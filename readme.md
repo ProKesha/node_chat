@@ -1,46 +1,10 @@
-# Chat (with Node.js)
+# Chat (with Node.js) 
+Implement a chat application (both client and server)
 
-Real-time chat application built with Node.js, Express, and Socket.IO.
+- You type a username and send it to the server
+- It is now username (save it in localStorage)
+- All the messages should have an author, time and text
+- Implement an ability to create rooms (create / rename / join / delete)
+- New user should see all prev messages in the room
 
-## Live Demo
-
-[DEMO LINK](https://node-chat-6yos.onrender.com)
-
-## Description
-
-This project is a simple multi-room chat application where users can:
-
-- choose and save a username
-- create chat rooms
-- rename and delete rooms
-- join different rooms
-- send messages in real time
-- view previous messages in the selected room
-
-The project was created to practice backend and frontend interaction, REST API, and real-time communication with Socket.IO.
-
-## Technologies Used
-
-- Node.js
-- Express
-- Socket.IO
-- JavaScript
-- HTML
-- CSS
-
-## Features
-
-- Real-time messaging
-- Multi-room chat
-- Room management
-- Username persistence with localStorage
-- Room message history
-- Responsive client-server interaction
-
-## How to Run Locally
-
-```bash
-npm install
-npm start
-
-```
+**Read [the guideline](https://github.com/mate-academy/js_task-guideline/blob/master/README.md) before start**
